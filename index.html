@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <input type="text"/>
+        <div class= "mode">
+          <button class="btn-mode night">
+           <svg xmlns="http://www.w3.org/2000/svg" fill="#1f62a0" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1f62a0" class="size-6">
+             <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+           </svg>
+          </button>
+          <button class="btn-mode day">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#1f62a0" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1f62a0" class="size-6 icon">
+             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button>
+          
+        </div>
+      </div>
+      <div class="rows">
+        <button class="btn clear " data-value="C" >
+          C
+        </button>
+        <button class="btn delete" data-value="del" >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-value="del" class="size-6 icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />
+</svg>
+
+          </svg>
+        </button>
+<button
+          class="btn operator percent" data-value="%"
+    
+         
+        >
+          %
+        </button>
+        
+        
+        <button
+          class="btn operator divide" data-value="÷"
+        >
+            ÷
+        </button>
+        <button class="btn num" id="key-7"   data-value="7">
+          7
+        </button>
+        <button class="btn num" id="key-8"  data-value="8" >
+          8
+        </button>
+        <button class="btn num" id="key-9" data-value="9">
+          9
+        </button>
+        <button
+          class="btn operator multiple"
+          data-value="×"
+         
+        >
+         ×
+        </button>
+
+        <button class="btn num" id="key-4" data-value="4" >
+          4
+        </button>
+        <button class="btn num" id="key-5" data-value="5"> 
+          5
+        </button> 
+        <button class="btn num" id="key-6" data-value="6">
+          6
+        </button>
+        <button
+          class="btn operator minus" data-value="-"
+        >
+          -
+        </button>
+
+        <button class="btn num" id="key-1" data-value="1" >1</button>
+        <button class="btn num" id="key-2" data-value="2">2
+        </button>
+        <button class="btn num" id="key-3" data-value="3">
+          3
+        </button>
+        <button
+          class="btn operator plus" data-value="+"
+        >
+          +
+        </button>
+
+        <button class="btn num" data-value="00">
+          00
+        </button>
+        <button class="btn num" id="key-0" data-value="0">
+          0
+        </button>
+        <button class="btn float" data-value=".">
+          .
+        </button>
+        <button class="btn equal" data-value="=">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
